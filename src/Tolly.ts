@@ -14,14 +14,16 @@ export class Tolly {
   constructor({
     name = "Tolly",
     apiKey = null,
+    baseUrl = "https://tolly.dev/api/v1",
   }: {
     name?: string;
     apiKey?: string | null;
+    baseUrl?: string;
   }) {
     this.name = name;
     this.version = "1.0.0";
     this.apiKey = apiKey;
-    this.baseUrl = "https://tolly.dev/api/v1";
+    this.baseUrl = baseUrl;
   }
 
   /**

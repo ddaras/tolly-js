@@ -1,6 +1,6 @@
 {
   "name": "tolly",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A TypeScript package with the main Tolly class",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -68,6 +68,22 @@ export class Tolly {
       body: JSON.stringify(options),
     });
 
-    return response.json();
+    // Check if the response is ok
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    // Check if response has content
+    const text = await response.text();
+    if (!text) {
+      throw new Error("Empty response received");
+    }
+
+    // Try to parse JSON
+    try {
+      return JSON.parse(text);
+    } catch (error) {
+      throw new Error(`Invalid JSON response: ${text}`);
+    }
   }
 }

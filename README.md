@@ -49,9 +49,7 @@ console.log(result);
 
 | Option    | Type             | Default                      | Description         |
 | --------- | ---------------- | ---------------------------- | ------------------- |
-| `name`    | `string`         | `"Tolly"`                    | Instance identifier |
-| `apiKey`  | `string \| null` | `null`                       | Your Tolly API key  |
-| `baseUrl` | `string`         | `"https://tolly.dev/api/v1"` | API base URL        |
+| `apiKey`  | `string \| null` | `null`                       | Your Tolly API key  | 
 
 ### Methods
 

@@ -14,7 +14,7 @@ export class Tolly {
   constructor({
     name = "Tolly",
     apiKey = null,
-    baseUrl = "https://tolly.dev/api/v1",
+    baseUrl = "https://api.tolly.dev/v1",
   }: {
     name?: string;
     apiKey?: string | null;

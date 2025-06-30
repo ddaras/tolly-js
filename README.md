@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://www.tolly.dev/_next/image?url=%2Ftolly-logo.png&w=256&q=75" alt="Tolly Logo" width="200">
+</div>
+
 # 🚀 Tolly
 
 > **The TypeScript-first SDK for structuring unstructured data**
@@ -47,9 +51,9 @@ console.log(result);
 
 ### Constructor Options
 
-| Option    | Type             | Default                      | Description         |
-| --------- | ---------------- | ---------------------------- | ------------------- |
-| `apiKey`  | `string \| null` | `null`                       | Your Tolly API key  | 
+| Option   | Type             | Default | Description        |
+| -------- | ---------------- | ------- | ------------------ |
+| `apiKey` | `string \| null` | `null`  | Your Tolly API key |
 
 ### Methods
 
@@ -70,7 +74,7 @@ Resolves a function through the Tolly API.
 **Example:**
 
 ```typescript
-const result = await tolly.execute("labelTicket", {
+const { category, priority, sentiment } = await tolly.execute("labelTicket", {
   input: {
     ticket: {
       title: "Can't login to my account",

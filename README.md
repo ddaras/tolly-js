@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://www.tolly.dev/_next/image?url=%2Ftolly-logo.png&w=256&q=75" alt="Tolly Logo" width="200">
+  <img src="https://www.tolly.dev/_next/image?url=%2Ftolly-logo.png&w=256&q=75" alt="Tolly Logo" width="120">
 </div>
 
 # 🚀 Tolly

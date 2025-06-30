@@ -50,7 +50,7 @@ export class Tolly {
     return this.version;
   }
 
-  public async resolve(
+  public async execute(
     func: string,
     options: {
       input: any;
@@ -62,7 +62,7 @@ export class Tolly {
     headers.set("Authorization", `Bearer ${this.apiKey}`);
     headers.set("Content-Type", "application/json");
 
-    const response = await fetch(`${this.baseUrl}/resolve/${func}`, {
+    const response = await fetch(`${this.baseUrl}/execute/${func}`, {
       method: "POST",
       headers,
       body: JSON.stringify(options),

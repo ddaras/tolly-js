@@ -2,7 +2,7 @@
   <img src="https://www.tolly.dev/_next/image?url=%2Ftolly-logo.png&w=256&q=75" alt="Tolly Logo" width="120">
 </div>
 
-# 🚀 Tolly
+<h1 align="center">Tolly</h1>
 
 > **The TypeScript-first SDK for structuring unstructured data**
 

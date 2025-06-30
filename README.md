@@ -72,7 +72,7 @@ Resolves a function through the Tolly API.
 **Example:**
 
 ```typescript
-const result = await tolly.execute("dataProcessor", {
+const result = await tolly.execute("labelTicket", {
   input: {
     ticket: {
       title: "Can't login to my account",
